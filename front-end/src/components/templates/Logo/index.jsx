@@ -1,9 +1,12 @@
 import './style.css'
+import logo from '../../../assets/img/logo.svg'
 import React from 'react'
 
-const Logo = props => 
+const Logo = props =>
   <aside className="logo">
-    Logo
+    <a href="/" className="logo">
+      <img src={logo} alt="logo"/>
+    </a>
   </aside>
-  
+
 export default Logo
