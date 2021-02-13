@@ -3,7 +3,9 @@ import React from 'react'
 
 const Footer = props =>
   <footer className="footer">
-    Footer
+    <span>
+      Developed by: <strong> Gladson</strong>
+    </span>
   </footer>
 
 export default Footer
