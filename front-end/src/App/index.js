@@ -12,7 +12,10 @@ const App = props =>
   <div className="app">
     <Logo />
     <Nav />
-    <Main />
+    <Main
+      icon="home"
+      title="Home"
+      subtitle="User Registration Project" />
     <Footer />
   </div>
 
