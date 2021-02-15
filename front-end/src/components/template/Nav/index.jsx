@@ -6,12 +6,12 @@ const Nav = props =>
   <aside className="menu-area">
     <nav className="menu">
       <NavItem
-        link="#/"
+        link="/"
         icon="fa fa-home"
         label="Home" />
       
       <NavItem
-        link="#/users"
+        link="/users"
         icon="fa fa-users"
         label="Users" />
 

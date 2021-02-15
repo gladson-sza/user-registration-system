@@ -1,10 +1,11 @@
 import './style.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const NavItem = props => <a
-  className="menu-item"
-  href={props.link}>
+const NavItem = props => <Link
+  to={props.link}
+  className="menu-item">
   <i className={props.icon}></i> {props.label}
-</a>
+</Link>
 
 export default NavItem
